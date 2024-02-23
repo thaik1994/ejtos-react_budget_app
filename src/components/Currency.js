@@ -32,7 +32,7 @@ const Currency = () => {
    return (
     <>
         <label for="currency" >Currency ({currency})</label>
-        <select name="currency" onChange={setCurrencyHandler}>
+        <select className = 'currency-box-selector'name="currency" onChange={setCurrencyHandler}>
         <option value="pound">£ Pound</option>
         <option value="dollar" >$ Dollar</option>
         <option value="euro">€ Euro</option>

@@ -13,6 +13,21 @@ code {
 }
 
 .money-span{
-    padding-right: 0;
     
+    padding-left: 2rem;
+}
+.currency-box {
+    
+    height: 4rem;
+    width: 9rem;
+    background: lightgreen;
+    color: white;
+}
+.currency-box-selector{
+    background: lightgreen;
+    color: black;
+}
+option.currency-box-selector:hover {
+    color: black;
+    background: white;
 }

@@ -23,8 +23,8 @@ const App = () => {
                         <ExpenseTotal />
                     </div>
                 </div>
-                <div className='row '>
-                    <div className='col-sm'>
+                <div className='row currency-box'>
+                    <div className='col-sm '>
                         <Currency />
                     </div>
                 </div>
